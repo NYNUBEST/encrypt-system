@@ -28,7 +28,7 @@ spring:
 
 logging:
   config:
-    classpath: log4j2-sprin.yml
+    classpath: log4j2-spring.yml
 
 server:
   port: 8084
