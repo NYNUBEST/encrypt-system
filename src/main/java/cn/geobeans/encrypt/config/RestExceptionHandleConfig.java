@@ -8,6 +8,10 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
+/**
+ * 全局异常拦截
+ * @author LiYuFei
+ */
 @ControllerAdvice
 public class RestExceptionHandleConfig extends ResponseEntityExceptionHandler {
 

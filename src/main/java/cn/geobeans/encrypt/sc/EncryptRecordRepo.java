@@ -12,5 +12,11 @@ import java.util.List;
  **/
 @Repository
 public interface EncryptRecordRepo extends JpaRepository<EncryptRecord,String> {
-    List<EncryptRecord> findByProjectNameContaining(String projectName);
+
+    /**
+     * 根据项目名称查询
+     * @param projectName 项目名称
+     * @return  加密记录实体
+     */
+    List<EncryptRecord> findAllByProjectNameContaining(String projectName);
 }

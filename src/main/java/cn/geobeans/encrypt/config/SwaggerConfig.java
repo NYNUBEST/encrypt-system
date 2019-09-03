@@ -30,7 +30,7 @@ public class SwaggerConfig {
                         .title("jar包进行加密")
                         .description("提供所有与平台相关的所有接口")
                         .version("1.0.0")
-                        .contact(new Contact("GeoBeans","http://www.geobeans.cn","market@digitalearth.cn"))
+                        .contact(new Contact("GeoBeans","http://www.geobeans.cn","nynubest@163.com"))
                         .build())
                 .ignoredParameterTypes(ignoreClass)
                 .select()
